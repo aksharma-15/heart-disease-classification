@@ -65,7 +65,7 @@ To find the best predictive engine, we experimented with three distinct algorith
 ## 🚀 How to Run the Project
 1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/your-username/heart-disease-classification.git](https://github.com/your-username/heart-disease-classification.git)
+   git clone [https://github.com/aksharma-15/heart-disease-classification.git](https://github.com/aksharma-15/heart-disease-classification.git)
 ```
 2. **Install dependencies**
    ```pip install -r requirements.txt```
