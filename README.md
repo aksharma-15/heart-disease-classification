@@ -20,12 +20,12 @@ This repository contains a complete, end-to-end data science and machine learnin
 ## 🎯 Problem Statement
 > *Given clinical parameters about a patient, can we accurately predict whether or not they have heart disease?*
 
-The proof-of-concept goal for this project is to strive toward a **95% accuracy** threshold in predicting heart disease, determining the viability of deploying such models in real-world clinical settings[cite: 1].
+The proof-of-concept goal for this project is to strive toward a **95% accuracy** threshold in predicting heart disease, determining the viability of deploying such models in real-world clinical settings.
 
 ## 📊 The Dataset
-The data is originally sourced from the well-known **Cleveland dataset** via the UCI Machine Learning Repository and Kaggle[cite: 1]. It includes 303 patient records and 14 clinical attributes[cite: 1].
+The data is originally sourced from the well-known **Cleveland dataset** via the UCI Machine Learning Repository and Kaggle. It includes 303 patient records and 14 clinical attributes.
 
-### Key Features[cite: 1]
+### Key Features
 1. **age**: Age in years 
 2. **sex**: 1 = male; 0 = female 
 3. **cp**: Chest pain type (4 values ranging from typical angina to asymptomatic)
@@ -42,22 +42,22 @@ The data is originally sourced from the well-known **Cleveland dataset** via the
 14. **target**: 1 = Heart Disease present, 0 = No Heart Disease 
 
 ## 🛠️ Tech Stack & Tools
-The following Python-based libraries were utilized to build this pipeline[cite: 1]:
+The following Python-based libraries were utilized to build this pipeline:
 * **Data Manipulation & Analysis:** `Pandas`, `NumPy`
 * **Data Visualization:** `Matplotlib`, `Seaborn`
 * **Machine Learning:** `Scikit-Learn`
 
 ## ⚙️ Workflow & Methodology
-1. **Problem Definition:** Outlining the clinical problem and success criteria[cite: 1].
-2. **Data Ingestion:** Loading the `heart-disease.csv` dataset[cite: 1].
-3. **Exploratory Data Analysis (EDA):** Becoming a subject matter expert on the data by analyzing distributions, handling missing values, finding outliers, and mapping correlations between variables (e.g., Heart disease frequency vs. Sex)[cite: 1].
+1. **Problem Definition:** Outlining the clinical problem and success criteria.
+2. **Data Ingestion:** Loading the `heart-disease.csv` dataset.
+3. **Exploratory Data Analysis (EDA):** Becoming a subject matter expert on the data by analyzing distributions, handling missing values, finding outliers, and mapping correlations between variables (e.g., Heart disease frequency vs. Sex).
 4. **Data Preprocessing:** Splitting data into training and test sets (`train_test_split`).
 5. **Modeling:** Training and comparing multiple classification algorithms.
 6. **Hyperparameter Tuning:** Using `RandomizedSearchCV` and `GridSearchCV` to squeeze out maximum performance.
-7. **Evaluation:** Analyzing models beyond pure accuracy using `confusion_matrix`, `classification_report`, `precision_score`, `recall_score`, `f1_score`, and `RocCurveDisplay`[cite: 1].
+7. **Evaluation:** Analyzing models beyond pure accuracy using `confusion_matrix`, `classification_report`, `precision_score`, `recall_score`, `f1_score`, and `RocCurveDisplay`.
 
 ## 🧠 Machine Learning Models
-To find the best predictive engine, we experimented with three distinct algorithms[cite: 1]:
+To find the best predictive engine, we experimented with three distinct algorithms:
 1. **Logistic Regression** (Often serves as a strong baseline for binary classification)
 2. **K-Nearest Neighbors (KNN)**
 3. **Random Forest Classifier** (An ensemble method for robust pattern recognition)
